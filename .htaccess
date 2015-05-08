@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\.orhanbahar\.com\.tr
+RewriteRule (.*) http://www.orhanbahar.com.tr/$1 [R=301,L]
